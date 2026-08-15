@@ -8,6 +8,9 @@ import { CustomerListPage } from './pages/CustomerListPage';
 import { CustomerFormPage } from './pages/CustomerFormPage';
 import { CustomerDetailsPage } from './pages/CustomerDetailsPage';
 import { CustomerAssignPage } from './pages/CustomerAssignPage';
+import { VenuesPage } from './pages/VenuesPage';
+import { VendorsPage } from './pages/VendorsPage';
+import { TrackingPage } from './pages/TrackingPage';
 import { ReportsPage } from './pages/ReportsPage';
 
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
@@ -83,6 +86,30 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <CustomerAssignPage />
+          </ProtectedRoute>
+        } 
+      />
+      <Route 
+        path="/venues" 
+        element={
+          <ProtectedRoute>
+            <VenuesPage />
+          </ProtectedRoute>
+        } 
+      />
+      <Route 
+        path="/vendors" 
+        element={
+          <ProtectedRoute>
+            <VendorsPage />
+          </ProtectedRoute>
+        } 
+      />
+      <Route 
+        path="/tracking" 
+        element={
+          <ProtectedRoute>
+            <TrackingPage />
           </ProtectedRoute>
         } 
       />

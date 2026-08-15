@@ -1,11 +1,14 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, Users, BarChart3, Calendar, Settings, LogOut } from 'lucide-react';
+import { LayoutDashboard, Users, BarChart3, Building2, UserCheck, Clock, Calendar, Settings, LogOut } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { cn } from '../../utils/cn';
 
 const navItems = [
   { name: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
   { name: 'Customers', path: '/customers', icon: Users },
+  { name: 'Venues', path: '/venues', icon: Building2 },
+  { name: 'Vendors', path: '/vendors', icon: UserCheck },
+  { name: 'Tracking', path: '/tracking', icon: Clock },
   { name: 'Reports', path: '/reports', icon: BarChart3 },
 ];
 
