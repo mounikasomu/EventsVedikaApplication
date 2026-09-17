@@ -6,17 +6,17 @@ export interface User {
 }
 
 const DEMO_USERS: User[] = [
-  { id: '1', name: 'Siddhitha (Admin)', email: 'siddhithaAdmin@gmail.com', role: 'Admin' },
-  { id: '2', name: 'Shivani', email: 'shivaniManager@gmail.com', role: 'Event Manager' },
-  { id: '3', name: 'Siddhi', email: 'siddhiManager@gmail.com', role: 'Event Manager' },
-  { id: '4', name: 'Basava', email: 'basavaManager@gmail.com', role: 'Event Manager' },
+  { id: '1', name: 'mounikasomu (Admin)', email: 'mounikasomu@gmail.com', role: 'Admin' },
+  { id: '2', name: 'manager', email: 'manager@gmail.com', role: 'Event Manager' },
+  { id: '3', name: 'mouni', email: 'mouniManager@gmail.com', role: 'Event Manager' },
+  { id: '4', name: 'Krishnakanth', email: 'krishnakanthManager@gmail.com', role: 'Event Manager' },
 ];
 
 const DEMO_PASSWORDS: Record<string, string> = {
-  'siddhithaAdmin@gmail.com': 'siddhi123',
-  'shivaniManager@gmail.com': 'shivaniManager123',
-  'siddhiManager@gmail.com': 'siddhiManager123',
-  'basavaManager@gmail.com': 'basavaManager123',
+  'mounikasomu@gmail.com': 'mouni123',
+  'manager@gmail.com': 'manager123',
+  'mounimanager@gmail.com': 'mouniManager123',
+  'krishnakanthManager@gmail.com': 'krishnakanthManager123',
 };
 
 const CURRENT_USER_KEY = 'event_crm_current_user';
