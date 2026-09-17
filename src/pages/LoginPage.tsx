@@ -122,15 +122,15 @@ export const LoginPage = () => {
             <div className="w-full">
               <span className="font-semibold text-foreground">Admin:</span>
               <div className="mt-1 flex justify-between text-muted-foreground">
-                <span>siddhithaAdmin@gmail.com</span>
-                <span>siddhi123</span>
+                <span>mounikasomu@gmail.com</span>
+                <span>mouni123</span>
               </div>
             </div>
             <div className="w-full">
               <span className="font-semibold text-foreground">Event Manager:</span>
               <div className="mt-1 flex justify-between text-muted-foreground">
-                <span>shivaniManager@gmail.com</span>
-                <span>shivaniManager123</span>
+                <span>manager@gmail.com</span>
+                <span>Manager123</span>
               </div>
             </div>
           </CardFooter>
